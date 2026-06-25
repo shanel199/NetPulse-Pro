@@ -7,12 +7,14 @@ C[Statistics Engine]
 D[Diagnosis Engine]
 E[Alert Manager]
 F[Dashboard]
-G[Console / GUI / Toast]
+G[Console / GUI]
+H[Notifications]
 
 A --> B
 B --> C
 C --> D
 D --> E
 D --> F
-E --> G
+
+E --> H
 F --> G
