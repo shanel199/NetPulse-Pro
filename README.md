@@ -2,10 +2,10 @@
 
 > Professional Network Diagnostics & ISP Monitoring Tool
 
+![Status](https://img.shields.io/badge/Status-In%20Development-orange)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20%7C%20Server-success)
-![License](https://img.shields.io/badge/License-MIT-green)
-
+![Platform](https://img.shields.io/badge/Platform-Windows-success)
+![Version](https://img.shields.io/badge/Version-v0.1.0-informational)
 ---
 
 ## ✨ Features
