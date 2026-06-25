@@ -1,32 +1,18 @@
-                          NetPulse Pro
-                  Internal Architecture
+```mermaid
+flowchart TD
 
-┌──────────────┐
-│ Configuration│
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Ping Engine  │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Statistics   │
-│    Engine    │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Diagnosis    │
-│    Engine    │
-└───┬─────┬────┘
-    │     │
-    ▼     ▼
-┌──────────────┐      ┌──────────────┐
-│ Alert Manager│      │ Dashboard    │
-└──────┬───────┘      └──────┬───────┘
-       │                     │
-       └──────────┬──────────┘
-                  ▼
-        Console / GUI / Toast
+A[Configuration]
+B[Ping Engine]
+C[Statistics Engine]
+D[Diagnosis Engine]
+E[Alert Manager]
+F[Dashboard]
+G[Console / GUI / Toast]
+
+A --> B
+B --> C
+C --> D
+D --> E
+D --> F
+E --> G
+F --> G
